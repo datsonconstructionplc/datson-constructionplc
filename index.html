@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datson Construction PLC</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons (v6.5.2) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<!-- =====================================================
+     HEADER / NAVIGATION
+===================================================== -->
+<header class="site-header">
+    <div class="header-container">
+
+        <a href="#home" class="brand">
+            <img src="images/logo.png" alt="Datson Construction PLC Logo" onerror="this.src='https://via.placeholder.com/50/7c3aed/ffffff?text=DC'">
+            <div class="brand-text">
+                <strong>DATSON</strong>
+                <span>CONSTRUCTION PLC</span>
+            </div>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="mailto:info@datsonconstructionplc.com" class="quote-btn shimmer"><i class="fas fa-envelope"></i> Email Us</a>
+
+    </div>
+</header>
+
+
+<!-- =====================================================
+     FLOATING SOCIAL & PHONE SIDEBAR
+===================================================== -->
+<div class="social-float">
+    <a href="tel:+251910132679" aria-label="Call Direct"><i class="fas fa-phone"></i></a>
+    <a href="mailto:info@datsonconstructionplc.com" aria-label="Email Us"><i class="fas fa-envelope"></i></a>
+    <a href="https://t.me/DatconGc4" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+    <a href="https://wa.me/251910132679" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+
+
+<!-- =====================================================
+     HERO SECTION
+===================================================== -->
+
+           <!-- HERO SLIDER SECTION -->
+<section class="hero-slider" id="home">
+    <div class="slider-container">
+        <!-- Slide 1 -->
+        <div class="slide active" style="background-image: linear-gradient(rgba(8, 3, 18, 0.7), rgba(8, 3, 18, 0.7)), url('images/road2.jpg');">
+            <div class="container slide-content">
+                <span class="hero-badge"><i class="fas fa-hard-hat"></i> DATSON CONSTRUCTION PLC</span>
+                <h1>Building Today, <br><span>Creating Tomorrow</span></h1>
+                <p>Professional construction solutions for roads, buildings, housing, and infrastructure projects.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Our Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide" style="background-image: linear-gradient(rgba(8, 3, 18, 0.7), rgba(8, 3, 18, 0.7)), url('images/road1.jpg');">
+            <div class="container slide-content">
+                <span class="hero-badge"><i class="fas fa-road"></i> INFRASTRUCTURE EXCELLENCE</span>
+                <h1>Engineering Quality <br><span>Roads & Bridges</span></h1>
+                <p>Delivering high-durability highway paving and structural civil engineering projects statewide.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide" style="background-image: linear-gradient(rgba(8, 3, 18, 0.7), rgba(8, 3, 18, 0.7)), url('images/team.jpg');">
+            <div class="container slide-content">
+                <span class="hero-badge"><i class="fas fa-users"></i> EXPERT FIELD TEAM</span>
+                <h1>Precision Planning <br><span>& Safety First</span></h1>
+                <p>Our experienced site engineers and project managers ensure top quality on every build.</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">About Our Team <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Work With Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="slider-btn prev-btn" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+    <button class="slider-btn next-btn" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+
+    <!-- Slide Indicators -->
+    <div class="slider-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+    </div>
+</section>
+
+
+<!-- =====================================================
+     ABOUT SECTION
+===================================================== -->
+<section id="about" class="about">
+    <div class="container about-container">
+
+        <div class="about-image-wrapper">
+            <div class="about-image float">
+                <img src="images/road1.jpg" alt="Datson Construction Road Project" onerror="this.src='https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80'">
+            </div>
+            <div class="experience-badge glow-pulse">
+                <i class="fas fa-certificate"></i>
+                <div>
+                    <strong>Category GC-4</strong>
+                    <span>Licensed Contractor</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <small class="subtitle-badge">
+                <i class="fas fa-hard-hat"></i> WHO WE ARE
+            </small>
+
+            <h2>Building Infrastructure with <span>Precision & Integrity</span></h2>
+
+            <div class="title-line"></div>
+
+            <p class="lead-text">
+                <strong>DATSON CONSTRUCTION PLC</strong> was established in 2009 E.C. registered under the Federal Democratic Republic of Ethiopia, Oromia Region, Jimma Zone, Jimma City Government Finance and Economic Development Bureau.
+            </p>
+
+            <p>
+                Operating under construction license category <strong>GC-4</strong>, our firm undertakes all city work construction with the necessary expertise, high quality standards, and strict adherence to rules, safety regulations, and project monitoring systems.
+            </p>
+
+            <!-- Company Details Grid -->
+            <div class="about-info-grid">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-building"></i></div>
+                    <div>
+                        <small>Company Name</small>
+                        <strong>DATSON CONSTRUCTION PLC</strong>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-id-card"></i></div>
+                    <div>
+                        <small>TIN Number</small>
+                        <strong>0051150857</strong>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <div>
+                        <small>Established</small>
+                        <strong>2009 E.C.</strong>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <small>Phone Numbers</small>
+                        <strong>0910132679 / 0913670034</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vision & Mission Block -->
+            <div class="vm-block" style="margin-top: 25px; padding: 18px; background: rgba(255, 255, 255, 0.03); border-left: 4px solid #a83cff; border-radius: 8px;">
+                <h4 style="color: #a83cff; margin-bottom: 6px; font-size: 16px;"><i class="fas fa-eye"></i> Vision</h4>
+                <p style="margin-bottom: 14px; color: #ddd;">Be the 1<sup>st</sup> Grade Building Contractor in the country transformation period.</p>
+                
+                <h4 style="color: #a83cff; margin-bottom: 6px; font-size: 16px;"><i class="fas fa-bullseye"></i> Mission Statement</h4>
+                <p style="margin-bottom: 0; color: #ddd;">To be one of the leading building construction contractor companies by satisfying customers and stakeholders so as to boost owner's equity.</p>
+            </div>
+
+            <!-- Core Values Block -->
+            <div class="core-values-block" style="margin-top: 20px;">
+                <h4 style="color: #fff; margin-bottom: 12px;"><i class="fas fa-star" style="color: #a83cff;"></i> Core Values of the Company</h4>
+                <ul style="list-style: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <li style="font-size: 14px; color: #ccc;"><i class="fas fa-check-circle" style="color: #a83cff; margin-right: 6px;"></i> Learning organization</li>
+                    <li style="font-size: 14px; color: #ccc;"><i class="fas fa-check-circle" style="color: #a83cff; margin-right: 6px;"></i> Quality service product to customers</li>
+                    <li style="font-size: 14px; color: #ccc;"><i class="fas fa-check-circle" style="color: #a83cff; margin-right: 6px;"></i> Passionately owning the vision</li>
+                    <li style="font-size: 14px; color: #ccc;"><i class="fas fa-check-circle" style="color: #a83cff; margin-right: 6px;"></i> High standard ethics as milestone</li>
+                </ul>
+            </div>
+
+            <div class="about-actions" style="margin-top: 25px;">
+                <a href="#contact" class="btn btn-primary shimmer">
+                    Work With Us <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- =====================================================
+     SERVICES SECTION
+===================================================== -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-title">
+            <small>WHAT WE DO</small>
+            <h2>Our <span>Services</span></h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-number">01</div>
+                <i class="fas fa-road"></i>
+                <h3>Road Construction</h3>
+                <p>Road construction, maintenance, and infrastructure development with high quality.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">02</div>
+                <i class="fas fa-building"></i>
+                <h3>Building Construction</h3>
+                <p>Construction of quality commercial and public buildings.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">03</div>
+                <i class="fas fa-house"></i>
+                <h3>Housing Construction</h3>
+                <p>Reliable residential and housing construction solutions.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">04</div>
+                <i class="fas fa-bridge"></i>
+                <h3>Infrastructure</h3>
+                <p>Infrastructure development and construction-related civil services.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =====================================================
+     PROJECTS SECTION
+===================================================== -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-title">
+            <small>OUR WORK</small>
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/road1.jpg" alt="Road Construction Project" onerror="this.src='https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80'">
+                    <span>ROAD CONSTRUCTION</span>
+                </div>
+                <div class="project-info">
+                    <h3>Road Development Project</h3>
+                    <p>Professional road construction and infrastructure development.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/road2.jpg" alt="Infrastructure Project" onerror="this.src='https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'">
+                    <span>INFRASTRUCTURE</span>
+                </div>
+                <div class="project-info">
+                    <h3>Infrastructure Project</h3>
+                    <p>Quality construction and infrastructure development.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/team.jpg" alt="Datson Construction Team" onerror="this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80'">
+                    <span>OUR TEAM</span>
+                </div>
+                <div class="project-info">
+                    <h3>Site Operations & Engineering</h3>
+                    <p>Our dedicated professionals working together for quality results.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =====================================================
+     TEAM SECTION
+===================================================== -->
+<section id="team" class="team">
+    <div class="container">
+        <div class="section-title">
+            <small>OUR PEOPLE</small>
+            <h2>Professional <span>Team</span></h2>
+        </div>
+
+        <div class="team-grid">
+            <!-- Director Dagme Solomon -->
+            <div class="team-card director-card">
+                <div class="team-img-wrapper">
+                    <img src="images/director.jpg" alt="Dagme Solomon" onerror="this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80'">
+                </div>
+                <h3>Dagim Solomon</h3>
+                <p class="role">Managing Director</p>
+                <div class="team-socials">
+                    <a href="https://t.me/DatconGc4" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://wa.me/251910132679" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!-- Civil Engineering Dept -->
+            <div class="team-card">
+                <div class="team-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="Civil Engineering Dept" onerror="this.src='images/team1.jpg'">
+                </div>
+                <h3>Civil Engineering Dept</h3>
+                <p class="role">Senior Structural Engineers</p>
+                <div class="team-socials">
+                    <a href="mailto:info@datsonconstructionplc.com" aria-label="Contact"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Operations & Field Crew -->
+            <div class="team-card">
+                <div class="team-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Field Operations Crew" onerror="this.src='images/team2.jpg'">
+                </div>
+                <h3>Field Operations Crew</h3>
+                <p class="role">Site Managers & Technicians</p>
+                <div class="team-socials">
+                    <a href="mailto:info@datsonconstructionplc.com" aria-label="Contact"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =====================================================
+     CONTACT SECTION
+===================================================== -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-heading">
+            <small>GET IN TOUCH</small>
+            <h2>Let's Build Something <span>Great Together</span></h2>
+            <p>We are ready to work on your next construction project.</p>
+        </div>
+
+        <div class="contact-box">
+            <a href="mailto:info@datsonconstructionplc.com" class="contact-card email">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>Official Email</h3>
+                    <p>datsonconstructionplc@gmail.com</p>
+                </div>
+            </a>
+
+            <a href="tel:+251910132679" class="contact-card phone">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <h3>Phone Line 1</h3>
+                    <p>+251 910 132 679</p>
+                </div>
+            </a>
+
+            <a href="tel:+251913670034" class="contact-card phone">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <h3>Phone Line 2</h3>
+                    <p>+251 913 670 034</p>
+                </div>
+            </a>
+
+            <a href="https://t.me/DatconGc4" target="_blank" class="contact-card telegram">
+                <i class="fab fa-telegram"></i>
+                <div>
+                    <h3>Telegram</h3>
+                    <p>@DatconGc4</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="contact-button">
+            <a href="mailto:info@datsonconstructionplc.com" class="btn btn-primary shimmer">
+                Send Us An Email <i class="fas fa-paper-plane"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+<footer>
+    <div class="container footer-content">
+        <div class="footer-company">
+            <h3>Datson Construction PLC</h3>
+            <p>Building Roads. Building the Future.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div>
+            <h3>Our Services</h3>
+            <a href="#services">Road Construction</a>
+            <a href="#services">Building Construction</a>
+            <a href="#services">Housing Construction</a>
+            <a href="#services">Infrastructure</a>
+        </div>
+
+        <div>
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-location-dot"></i> Jimma, Oromia, Ethiopia</p>
+            <p><i class="fas fa-envelope"></i> datsonconstructionplc@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +251 910 132 679</p>
+            <p><i class="fas fa-phone"></i> +251 913 670 034</p>
+            <p><i class="fab fa-telegram"></i> Telegram: @DatconGc4</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Datson Construction PLC. All Rights Reserved.
+    </div>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll(".navbar a");
+    links.forEach(function(link) {
+        link.addEventListener("click", function() {
+            links.forEach(function(item) {
+                item.classList.remove("active");
+            });
+            this.classList.add("active");
+        });
+    });
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Dynamic Hero Image & Text Switcher Array
+    const heroData = [
+        {
+            img: "images/road2.jpg",
+            fallback: "https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=800&q=80",
+            title: "Heavy Infrastructure & Highway Paving",
+            tag: "Active Road Project"
+        },
+        {
+            img: "images/road1.jpg",
+            fallback: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+            title: "Structural Edifices & Civil Engineering",
+            tag: "Commercial Site"
+        },
+        {
+            img: "images/team.jpg",
+            fallback: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+            title: "Expert Field Operations & Supervision",
+            tag: "Safety First"
+        }
+    ];
+
+    let currentIndex = 0;
+    const heroImg = document.querySelector(".hero-img");
+    const heroTitle = document.querySelector(".visual-overlay h4");
+    const heroTag = document.querySelector(".visual-overlay .tag");
+
+    if (heroImg && heroTitle && heroTag) {
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % heroData.length;
+            
+            // Fade Out
+            heroImg.style.opacity = "0";
+            
+            setTimeout(() => {
+                // Change Content
+                heroImg.src = heroData[currentIndex].img;
+                heroImg.onerror = function() { this.src = heroData[currentIndex].fallback; };
+                heroTitle.textContent = heroData[currentIndex].title;
+                heroTag.innerHTML = `<i class="fas fa-hard-hat"></i> ${heroData[currentIndex].tag}`;
+                
+                // Fade In
+                heroImg.style.opacity = "1";
+            }, 400);
+        }, 5000); // Switches every 5 seconds
+    }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+    const prevBtn = document.getElementById("prevSlide");
+    const nextBtn = document.getElementById("nextSlide");
+
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove("active");
+            if (dots[i]) dots[i].classList.remove("active");
+        });
+
+        currentSlide = (index + slides.length) % slides.length;
+        slides[currentSlide].classList.add("active");
+        if (dots[currentSlide]) dots[currentSlide].classList.add("active");
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    function startAutoSlide() {
+        slideInterval = setInterval(nextSlide, 6000); // Transitions every 6 seconds
+    }
+
+    function stopAutoSlide() {
+        clearInterval(slideInterval);
+    }
+
+    // Event Listeners
+    if (nextBtn) {
+        nextBtn.addEventListener("click", () => {
+            nextSlide();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+    }
+
+    if (prevBtn) {
+        prevBtn.addEventListener("click", () => {
+            prevSlide();
+            stopAutoSlide();
+            startAutoSlide();
+        });
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            showSlide(index);
+            stopAutoSlide();
+            startAutoSlide();
+        });
+    });
+
+    // Initialize Slider
+    startAutoSlide();
+});
+</script>
+
+</body>
+</html>
