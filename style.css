@@ -713,6 +713,7 @@ a {
 /* =====================================================
    TEAM SECTION
 ===================================================== */
+
 .team {
     padding: 80px 0;
     background: #080312;
@@ -722,6 +723,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    align-items: start;
 }
 
 .team-card {
@@ -730,17 +732,16 @@ a {
     border-radius: 16px;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
 }
-```css
+
 .team-img-wrapper {
     width: 100%;
-    height: 280px;
+    height: 260px;
+    border-radius: 12px;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f5f5f5;
-    border-radius: 10px;
+    margin-bottom: 18px;
+    background: #110926;
 }
 
 .team-img-wrapper img {
@@ -751,17 +752,16 @@ a {
     display: block;
 }
 
-/* Keep the Managing Director's full photo visible */
+/* Dagim's photo - show more of the original photo */
 .director-card .team-img-wrapper img {
     object-fit: contain;
-    background: #f5f5f5;
+    background: #110926;
 }
-```
-
 
 .team-card h3 {
     font-size: 17px;
     color: #ffffff;
+    margin-bottom: 5px;
 }
 
 .team-card .role {
@@ -778,6 +778,24 @@ a {
 
 .team-socials a:hover {
     color: #a83cff;
+}
+
+
+/* TEAM RESPONSIVE */
+@media (max-width: 992px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-img-wrapper {
+        height: 280px;
+    }
 }
 
 
