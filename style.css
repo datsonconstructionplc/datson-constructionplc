@@ -1171,3 +1171,14 @@ footer a:hover {
     width: 30px;
     border-radius: 10px;
 }
+/* TEAM PHOTO SIZE */
+.team-card {
+    overflow: hidden;
+}
+
+.team-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
