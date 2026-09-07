@@ -714,6 +714,8 @@ a {
    TEAM SECTION
 ===================================================== */
 
+
+
 .team {
     padding: 80px 0;
     background: #080312;
@@ -727,28 +729,28 @@ a {
 }
 
 .team-card {
+    width: 100%;
     background: rgba(18, 9, 38, 0.6);
     border: 1px solid rgba(168, 60, 255, 0.2);
     border-radius: 16px;
     padding: 20px;
     text-align: center;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
-
-
-.team-card h3 {
-    font-size: 17px;.team-img-wrapper {
+/* ROUND PROFILE PHOTO */
+.team-img-wrapper {
     width: 180px;
     height: 180px;
     margin: 0 auto 18px;
     overflow: hidden;
     border-radius: 50%;
     background: #110926;
+    border: 3px solid #a83cff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #a83cff;
 }
 
 .team-img-wrapper img {
@@ -759,11 +761,14 @@ a {
     display: block;
 }
 
-/* Managing Director - show more of the complete photo */
+/* Managing Director photo */
 .director-card .team-img-wrapper img {
     object-fit: cover;
     object-position: center top;
 }
+
+.team-card h3 {
+    font-size: 17px;
     color: #ffffff;
     margin-bottom: 5px;
 }
@@ -785,7 +790,10 @@ a {
 }
 
 
-/* TEAM RESPONSIVE */
+/* =====================================================
+   TEAM RESPONSIVE
+===================================================== */
+
 @media (max-width: 992px) {
     .team-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -796,15 +804,12 @@ a {
     .team-grid {
         grid-template-columns: 1fr;
     }
-.team-img-wrapper {
-    width: 170px;
-    height: 170px;
-}
-    
-    
-}
 
-
+    .team-img-wrapper {
+        width: 170px;
+        height: 170px;
+    }
+}
 /* =====================================================
    CONTACT SECTION
 ===================================================== */
